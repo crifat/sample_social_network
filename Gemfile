@@ -28,6 +28,7 @@ gem 'spring',        group: :development
 
 group :development do
   gem 'rspec-rails'
+  gem 'annotate', '~> 2.6.5'
 end
 
 group :test do
