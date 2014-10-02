@@ -6,13 +6,12 @@
   <%= csrf_meta_tags %>
   <%= stylesheet_link_tag 'blueprint/screen', media: 'screen' %>
   <%= stylesheet_link_tag 'blueprint/print', media: 'print' %>
-  <%= stylesheet_link_tag '/custom', media: 'screen' %>
+  <%= stylesheet_link_tag 'custom', media: 'screen' %>
 </head>
 <body>
     <div class="container">
-
       <header>
-        <%= image_tag("logo.png", alt: "Sample App Logo", class: "round") %>
+        <%= image_tag("logo.jpg", alt: "Sample App Logo", class: "round") %>
         <nav class="round">
           <ul>
             <li><%= link_to "Home", "#" %></li>
