@@ -1,8 +1,11 @@
 Rails.application.routes.draw do
+
+  get "/home", to: "pages#home"
+  get "/about", to: "pages#about"
+  get "/contact", to: "pages#contact"
+
   get 'pages/home'
-
   get 'pages/contact'
-
   get 'pages/about'
 
   # The priority is based upon order of creation: first created -> highest priority.
