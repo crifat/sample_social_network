@@ -29,6 +29,7 @@ gem 'spring',        group: :development
 group :development do
   gem 'rspec-rails'
   gem 'annotate', '~> 2.6.5'
+  gem 'gravatar_image_tag'
 end
 
 group :test do
